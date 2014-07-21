@@ -3,7 +3,7 @@ package ru.abtestingframework.core;
 import com.mongodb.DBObject;
 import org.junit.Test;
 
-public class ABEnjine {
+public class ABEngineTest {
 
     @Test
     public void findPageTest() {
