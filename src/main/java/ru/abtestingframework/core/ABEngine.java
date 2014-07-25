@@ -25,7 +25,7 @@ public final class ABEngine {
 
     private static void init() {
         try {
-            Mongo mongo = new Mongo(ABEngine.getMongoURL());
+            Mongo mongo = new Mongo(getMongoURL());
             DB db = mongo.getDB("pagesDB");
             pageCollection = db.getCollection("page");
         } catch (UnknownHostException e) {
